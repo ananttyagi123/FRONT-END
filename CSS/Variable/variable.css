@@ -1,0 +1,46 @@
+/* think that you want to add a same coloue in 5 coloum or box in a body 
+/* then you write the color code in every line
+/* but if you want to change the color acording to your requirement 
+/* then it will consume more time and hard to change the color in every single line of code
+/* so we can use VARIABLE in CSS
+*/
+ body{
+    /* for defining a variable we can start  with "--" then name tthe variable and set value
+    */
+   --BGCOLOR:green;
+   --SHADOW :  0 5px 3px 4px;
+ }
+
+/* instead of writing it so many time we can use pseudo ---- */
+p1{
+    background-image:var(--BGCOLOR);
+}
+
+
+p2{
+    background-image:var(--BGCOLOR);
+}
+
+p3{
+    background-image:var(--BGCOLOR);
+}
+
+p4{
+    background-image:var(--BGCOLOR);
+};
+
+/* creating a box shadow */
+
+nav{
+    
+    text-align: center;
+    display: block;
+    background-color: rgb(0, 85, 128);
+    box-shadow: 0 5px 3px 4px;
+    padding:3px;
+    border-bottom:2px solid rgb(0, 0, 0);
+    /* but if we wanted to make 12 boxes having same shadow then we are going to do is that
+    copying the shadow property in a variable and use that particular variable so that we can 
+    make the shadow in less step tthan writing the codes evevry day */
+
+}

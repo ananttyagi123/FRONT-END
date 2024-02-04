@@ -1,0 +1,106 @@
+/* SELECTORS 
+1. ELEMENT SELECTOR */
+
+p{
+    color:green;
+
+}
+
+/* 2.CLASS SELECTOR */
+
+/* THIS TYPE OF SELECTORS ARE USUALLY BETTER THAN AN ELEMENT SELECTTOR BECAUSE IT CAN SPECFY A PARTICULAR ELELMENT
+/* for than we have to specify the class name or class of a particular element
+
+/*  .classname is usually denoted to implement the class selector in css file
+/* we can use same class name to the mutiple element 
+/* so it is useful to done mutiple coloring */
+
+.gray{
+    color:blueviolet;
+    /* so it will color all the element which has a class gray*/
+}
+
+/* FONT STYLING */
+ 
+body{
+    font: italic;
+}
+
+/* ID SELECTOR */
+/* id selector will be unique an it can sprecify only single element and it can be specify only for a single element
+
+/* it will be denoted by "#"
+
+/* GROUP SELECTOR  ---------------------------------------------------------------
+/* WE CAN USE A SINGLE PROPERTY TO THE MUTIPLE C=ELEMENT BY A COMMA
+*/
+h1,h2{
+    color:orangered;
+}
+
+/* UNIVERSAL SELECTORS 
+/*THIS UNIVERSAL SELECTORS (*) selects all the elements in tthe web page */
+
+
+
+* {
+  text-align: center;
+  color: blue;
+}
+
+/* SIMPLE SELECTORS ------------------------------------------------------------------------------------------------------------------ */
+
+#id - or #firstname - it selects all the element having an id firstname 
+
+.class or .firstname - it selects all the element having an class forstname 
+
+element.class - p.firstname - it will selects all the paragraph having an class firstname
+
+div,p -   it selects all the element in the pagagraph in the divison tag and paragraph
+
+/* COMBINATION SELECTORS ----------------------------------------------------------------------------------------------------*/
+
+/* DESENDENT SELECTOR ---------------------------------
+/* WE ARE USING SPACE BETWEEN THESE TWO COMBINATION
+*/
+
+if we use -
+ div p {
+
+}
+/* so it will selects all the paragraph inside the divison tag*/
+
+div p {
+  background-color: yellow;
+}
+
+/* CHILD SELECTOR (>) -----------------------------------------------------------------------------------------------------------
+The child selector selects all elements that are the children of a specified element.
+
+*/
+
+div > p {
+  background-color: yellow;
+}
+
+/* ADJECENT SELECTORS ----------------------------------------------------- */
+
+ (div+p)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+The following example selects the first <p> element that are placed immediately after <div> elements: 
+
+div + p {
+    background-color: yellow;
+  }
+
+
+element element	  div p	 -  Selects all <p> elements inside <div> elements
+
+element>element	  div > p	- Selects all <p> elements where the parent is a <div> element
+
+element+element	  div + p	- Selects the first <p> element that are placed immediately after <div> elements
+
+element1~element2     p ~ ul -	Selects every <ul> element that are preceded by a <p> element 

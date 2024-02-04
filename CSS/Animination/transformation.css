@@ -1,0 +1,84 @@
+/* ANIMINATION ------------------------------------------------------------ */
+.me{
+    flex-grow:1;
+    Display:flex;
+    justify-content: center;
+    gap:5rem;
+    background-color:dodgerblue;
+    padding:4px;
+    margin:4px;
+    width:120px;
+    height:120px;
+    text-align: center;
+    font-size:40px;
+    border:2px solid black;
+    display:flex;
+    text-align:center;
+}
+
+div:nth-child(1){
+    background-color: goldenrod;
+ /*    transform: translateX(50%); */
+ transform: rotateX(45deg);
+ transform:rotateZ(45deg);
+ transform:scaleX(150%);
+ transform:skew(10deg,20deg);
+
+}
+
+div:nth-child(2){
+    background-color: chartreuse;
+   /*  transform: translateY(-2rem);
+   
+ */
+ transform: rotateX(12deg);
+ transform:rotateZ(45deg);
+ transform: scaleX(160%);
+ transform: skewY(30deg);
+}
+
+div:nth-child(3){
+    background-color: rgb(16, 206, 174); 
+    transform: rotateX(45deg);
+    transform:rotateZ(45deg);
+    transform: scaleX(170%);
+    transform: skewX(20deg);
+}
+
+div:nth-child(4){
+    background-color: rgb(253, 147, 9);
+ /*    transform: translate(50%,-2rem); */
+ transform: rotateX(18deg);
+ transform:rotateZ(45deg);
+ transform: scaleX(180%);
+ transform: skewY(20deg);
+}
+
+
+
+/* ROTION ANGLE */
+
+div:nth-child(5){
+    background-color: rgb(8, 107, 122);
+    /* transform: translate(0%,-5rem); */
+    transform: rotateX(180deg);  
+
+        /* rotating Clockwise and Anti-Clockwise with the help of rotateZ */
+
+    transform:rotateZ(45deg);
+
+        /* SCALE transform is used to increse the size of the element by x-axis or in y-axis */
+
+     transform: scaleX(190%);  
+     margin:4px;
+    padding:9px;
+
+    /* Skew property is use d */
+    transform:skewX(10deg);
+}
+
+
+
+
+
+

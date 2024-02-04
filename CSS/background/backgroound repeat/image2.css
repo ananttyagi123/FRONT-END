@@ -1,0 +1,12 @@
+/* if we paste the image on the bach=kground it will take all the background and repeat the image 
+/* so to rid out of this we can use a background repeat property */
+
+body{
+    background-image: url(imageof\ water.webp);
+    background-repeat: repeat-y;
+    background-repeat:repeat-x;
+    /* so no repeat will take ony one photo on the background and do not repeat many images */
+   /* BACKGROUND-POSITIOn */
+   
+   background-position:top center;
+}

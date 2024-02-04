@@ -1,0 +1,40 @@
+/* styling images in CSS -------------------------------------------------------------
+
+*/
+
+/* .example{
+    border: 2px solid green;
+    border-radius:3px;
+    height:400px;
+}
+
+.example img{
+    width: 400px;
+    height: auto;
+}
+
+img{display:block;} */
+
+
+.profile-pic-figure{
+    width:35%;
+}
+
+.profile-pic-figure img{
+    width:100%;
+    height: auto;
+    min-width:100px;
+    border:5px double black;
+    border-radius:50%;
+}
+
+.hero{
+    border-bottom:2px solid black;
+    padding:20px;
+    justify-content: flex-start;
+    gap:30px;
+}
+
+h1{
+    font-size:500%;
+}

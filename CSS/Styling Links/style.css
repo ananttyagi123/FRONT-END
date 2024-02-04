@@ -1,0 +1,17 @@
+a{
+    text-decoration:none;
+    cursor:pointer;
+    color:red;
+
+}
+/*pseudo class   */
+
+a:visited{
+    color:purple;
+}
+
+a:hover, a:focus{
+    color:green;
+}
+
+

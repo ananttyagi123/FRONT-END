@@ -1,0 +1,56 @@
+@media screen and (min-width:455px){
+    body{
+        background-color:rgb(67, 67, 175);
+    }
+}
+
+
+@media screen and (min-width:550px){
+    body{
+        background-color:rgb(144, 24, 192);
+    }
+}
+
+@media screen and (min-width:660px){
+    body{
+        background-color:rgb(234, 203, 27);
+    }
+}
+
+
+@media screen and (min-width:770px){
+    body{
+        background-color:rgb(21, 214, 11);
+    }
+}
+
+
+
+@media screen and (min-width:880px){
+    body{
+        background-color:rgb(211, 11, 214);
+    }
+}
+
+
+@media screen and (min-width:990px){
+    body{
+        background-color:rgb(214, 11, 11);
+    }
+}
+
+
+@media screen and (min-width:1100px){
+    body{
+        background-color:rgb(11, 214, 177);
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    body{
+        background-color:rgb(249, 115, 12);
+    }
+}
+
+

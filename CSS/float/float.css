@@ -1,0 +1,20 @@
+.float{
+    background-color: black;
+    margin:70px;
+    padding:70px;
+    color:white;
+}
+.right{
+    float: right;
+}
+
+
+.float{
+    background-color: black;
+    margin:70px;
+    padding:70px;
+    color:white;
+}
+.left{
+    float:left;
+}

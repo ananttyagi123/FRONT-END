@@ -1,0 +1,21 @@
+
+header{
+    width:100%;
+}
+h1{
+    border:dashed red 2px ;
+    width:100%;
+    /*but it takes the 50% pf complete webpage */
+
+}
+
+/* rem ----------------------------------------------------
+/* it is also an anathor prooperty for font-size
+/* in general 1 rem is the default font-size means defined by the browser
+
+/* so take 2 rem */
+
+p{
+font-size: 2rem;
+}
+

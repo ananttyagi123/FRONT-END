@@ -1,0 +1,39 @@
+/* HEX-------------------------------------------------------
+/* it stands for the coloring using hexadecimal method 
+/*syntax::
+/* #RRGGBB -------------- 
+
+#Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+
+For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
+
+To display black, set all values to 00, like this: #000000.
+
+To display white, set all values to ff, like this: #ffffff.  
+
+*/
+
+p{
+    background-color:#4589;  /* for black color 
+    /* for white color use the  highest value as #fffff */
+}
+
+/* shades of gray are often defined by taking repeating values
+
+/* # f1f1f11
+/* #f9f9f9
+/* #f0f0f0f0
+
+
+body {
+  background-color: #fc9; /* same as #ffcc99 */
+/* }
+
+h1 {
+  color: #f0f; /* same as #ff00ff */
+/* }
+
+p {
+  color: #b58; /* same as #bb5588 }
+  */
+

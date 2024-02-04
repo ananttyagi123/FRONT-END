@@ -1,0 +1,36 @@
+/* TEXT-COLOR---------------------------------------------------------- */
+/* css text coloring may be simply done with the color: syntax
+/* /*  */
+/* 
+p{
+ color:aqua
+} */ 
+
+/* BACK-GROUND COLOR --------------------------------------------------*/
+/* we can simply color  the text- background by using 
+/* background-color: syntax ------------------------------------------*/
+/* 
+p{
+    background-color:rebeccapurple;
+} */
+
+/* BORDER COLOR -------------------------------------------------*/
+/* we can imply color the background by adding border  pixel or thickness and then the color
+/* border:2px  solid red; */
+/* solod is used as a property for adding v=color of the border*/
+
+/* 
+p{
+ border:2px solid green;
+} */
+
+/* COLOR VALUES
+
+/* RGB- it stands for red,green ,blue
+*/
+
+p{
+
+color:rgb(28, 229, 102)
+
+}

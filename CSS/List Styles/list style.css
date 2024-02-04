@@ -1,0 +1,40 @@
+/* styling of list using  */
+
+ul{
+    list-style-type: disc;
+}
+
+ol{
+    list-style-type:square;
+}
+/* we can also style it with the help of image url instead of defult
+*/
+
+ol{
+    list-style-image:url() ;
+}
+
+/* we can also style it with the n-th child or parent child
+if we want to cousomize a paricular element of list
+or may be all even will be red and all odd will be green
+*/
+
+ul li:nth-child(even){
+    color:red;
+}
+
+ul li:nth-child(odd){
+    color:aqua;
+}
+
+ul li:nth-child(2){
+    color:orangered;
+}
+
+/* for higlighting the of list we can use ul::marker */
+
+
+ul::marker{
+
+    color:green;
+}

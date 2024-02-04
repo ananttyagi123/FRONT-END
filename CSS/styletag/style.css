@@ -1,0 +1,6 @@
+/* external CSS */
+p {
+    color:green;
+    /* to adjust the font size we can use the font-size property to our element */
+    font-size:34px;
+}

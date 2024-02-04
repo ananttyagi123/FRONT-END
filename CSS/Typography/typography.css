@@ -1,0 +1,46 @@
+/* Typography is way to te text is arranged and presented */
+
+body{
+    padding:10%;
+    font-size : 20px;
+}
+
+/* text-decoration   */
+p{
+    text-decoration:underline;
+    
+}
+
+h1{
+    text-decoration:overline;
+}
+
+h2{
+    text-decoration: line-through;
+}
+
+/* text-transform ---------------------------------------------------------------*/
+
+p2{
+    padding:2px;
+    margin:2px;
+    text-transform: lowercase;
+}
+
+p3{
+    padding:2px;
+    margin:2px;
+    text-transform:uppercase;
+    line-height:1.5;
+    letter-spacing:2px;
+    word-spacing:1.5px;
+    font-style:italic;
+    font-family: sans-serif;
+    font-family:cursive;
+
+}
+
+p5{
+    font-family:fantasy;
+}
+

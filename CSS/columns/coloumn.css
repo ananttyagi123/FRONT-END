@@ -1,0 +1,19 @@
+/* if you want to addd no ofcoloumn you can do that just by coloumn identity in paragraph
+
+*/
+.coloumn{
+    column-count:4;
+    border:20px;
+    background-color: cadetblue;
+    /* then i will divide all tthe given paragraph into 4 coloumn
+    */
+    column-rule:4px solid greenyellow;
+    padding:2px;
+    margin:4px;
+    column-gap:3rem;
+}
+
+.coloumn p{
+    margin:4px;
+    padding:7px;
+}

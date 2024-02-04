@@ -1,0 +1,8 @@
+p{
+    /* for bakground color 
+    */
+    background-color:red;
+    background-color:rgba(red, green, blue, alpha);
+    background-color:hsla(hue, saturation, lightness, alpha);
+    background-color:#4444;
+}

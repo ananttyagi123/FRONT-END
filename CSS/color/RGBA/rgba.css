@@ -1,0 +1,17 @@
+.H1{
+ background-color:rgba(23,45,56,0.1);
+}
+
+.H2{
+    background-color:rgba(23,45,56,0.3);
+   }
+
+   .H3{
+    background-color:rgba(23,45,56,0.6);
+   }
+
+   /*  RGBA -------------------------------------------------------------------------------
+   /* in this rgba the "a" stands for the transpperency or opacity its value 
+   /* varies frim 0.1 - 1 
+   /* the greater the value the darker the color is 
+   /* a  -  ALPHA
