@@ -1,0 +1,34 @@
+/* styling link */
+
+#nav-link    a:hover{
+    color:palegreen;
+}
+
+
+
+body{
+     background:url(Slide1.JPG);
+     background-size: cover;
+
+}
+
+.image{
+    width:40%;
+    height:100%;
+    margin-top:19%;
+}
+
+nav{
+    background-color: #333;
+}
+.nav-link{
+color: azure;
+font-weight: bolder;
+
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    transition:2s;
+    color:white;
+}
