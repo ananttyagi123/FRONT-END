@@ -1,0 +1,58 @@
+<!--PADDING AND MARGIN-->
+<!--WE CAN USE "g-" for margin or "gx-" for x-axis margin "gy-" for y-axis -->
+<!--WE CAN ALSO USE "p-" for padding and "mx-" for x-axis padding-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    [ class*='col'] {
+        padding:1rem;
+        margin-top :2px;
+        background-color:rgb(12, 142, 207);
+        color:rebeccapurple;
+        border:2px;
+              }
+ div{
+   margin:2px;
+ }
+      
+    </style>
+    <div class="container-md border"> 
+        <div class="row gx-5 gy-45 my-6">
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-5 col-sm-6 px-4  gx-6 py-6 gy-7 text-center">hello</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-5 col-sm-6 col-7-xs text-center">hello</div>
+        </div>
+        <div class="row gx-5 gy-12 my-5">
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-5 col-sm-6 col-7-xs text-center">hello</div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-5 col-sm-6 col-7-xs text-center">hello</div>
+        </div>
+        <!--so this calass contain all tthe possible breakpoints ro make it responsive -->
+    </div>
+     <!--horizontal Gutters-->
+  <!--"  g-2  "-->  
+     <div class="container text-center">
+        <div class="row g-2">
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+        </div>
+      </div>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
