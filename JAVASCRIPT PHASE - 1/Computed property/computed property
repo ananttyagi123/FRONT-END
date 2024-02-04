@@ -1,0 +1,15 @@
+// computed Properties [ ] this is for assigning key variable values
+
+const key1 = "value1";
+const key2 = "value2";
+
+const value1 = "Key1";
+const value2 = "key2";
+
+
+const Object1 = {
+    [key1] : value1,
+    [key2] : value2
+}
+
+console.log(Object1);
